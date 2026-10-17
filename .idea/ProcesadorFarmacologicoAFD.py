@@ -4,7 +4,7 @@ class ProcesadorFarmacologicoAFD:
         # q9 es el único estado de aceptación según el documento
         self.estados_aceptacion = {'q9'}
 
-        # Mapeo d e la función de tr ansición δ(q, a) basada en la tabla del avance
+        # Mapeo d e la función de transición δ(q, a) basada en la tabla del avance
         self.transiciones = {
             'q0': {'A': 'q1', 'B': 'q1'},
             'q1': {'A': 'q2', 'B': 'q2'},
